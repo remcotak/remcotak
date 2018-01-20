@@ -1,0 +1,44 @@
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Lora', serif;
+  color: white;
+  margin: 0;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAAKElEQVQoU2NkIAIwEqGGgSxFUkgmP4Ox0U0CKYJLUqQIqz/IcjhWkwDw5QMKocWTqAAAAABJRU5ErkJggg==), linear-gradient(150deg, #4da6ff 0%, #6a4dff 100%);
+}
+
+h1,
+h2 {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.header {
+  position: absolute;
+  margin: auto;
+  top: 10%;
+  right: 0;
+  left: 0;
+  text-align: center;
+}
+
+.header__content {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.header__title {
+  font-size: calc(1rem + 5vw);
+  text-shadow: 8px 8px 3px rgba(0,0,0,0.1);
+  margin-bottom: 0;
+  padding-top: 100px;
+}
+
+.header__subtitle {
+  font-size: 20px;
+  font-size: calc(1rem + 0.5vw);
+}
