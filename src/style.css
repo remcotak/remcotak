@@ -20,7 +20,11 @@ h2 {
   top: 10%;
   right: 0;
   left: 0;
+  width: 50%;
+  background-color: #F8D259;
+  border-radius: 50% 50% 0 0;
   text-align: center;
+  padding-bottom: 50%;
 }
 
 .header__content {
@@ -34,7 +38,7 @@ h2 {
 .header__title {
   font-size: calc(1rem + 5vw);
   text-shadow: 8px 8px 3px rgba(0,0,0,0.1);
-  margin-bottom: 0;
+  margin-bottom: 0px;
   padding-top: 100px;
 }
 
