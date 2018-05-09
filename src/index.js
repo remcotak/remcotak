@@ -1,4 +1,4 @@
 import './css/style.css';
-import canvas from './js/canvas.js';
+import jump from './js/jump';
 
-canvas();
+jump();
