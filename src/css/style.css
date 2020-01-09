@@ -48,7 +48,7 @@ h2 {
 }
 
 .header__title span:hover {
-  transform:translateY(-20px) scale(2) rotate(var(--rotation-deg));
+  transform: translateY(-20px) scale(1.2) rotate(var(--rotation-deg));
   z-index: 1;
 }
 

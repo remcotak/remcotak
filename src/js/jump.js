@@ -6,7 +6,7 @@ const jump = () => {
   }
 
   // Get a random value between the given min and max
-  const generateRandomInteger = (min = -20, max = 20) => {
+  const generateRandomInteger = (min = -10, max = 10) => {
     return Math.floor(min + Math.random() * (max + 1 - min));
   };
 
